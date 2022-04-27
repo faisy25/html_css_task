@@ -1,0 +1,152 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #e9d5da;
+  color: #363062;
+}
+
+.border-below {
+  border: 5px solid #363062;
+  float: right;
+}
+
+/* Section 1 */
+.profile-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-div-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-div-1 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* section 2 */
+.education-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.education-div-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.education-div-1 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.education-year {
+  line-height: 40px;
+}
+
+/* section 3 */
+.skill-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-div-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.skill-div-1 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  line-height: 10px;
+}
+.projects {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* section 4 */
+.interest-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.interest-div-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.interest-div-1 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.interest-div-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.interest-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.interest-icon p {
+  margin-top: 10px;
+  /* text-align: center; */
+}
+
+/* section 5 */
+.work-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.work-div-1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.work-div-1 p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+  .education-year {
+    line-height: 80px;
+  }
+  .interest-div-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+.vl {
+  height: 235px;
+  border: 5px solid #363062;
+}
+
+@media screen and (max-width: 768px) {
+  .vl {
+    display: none;
+  }
+  .education-div-1 {
+    text-align: start;
+  }
+}
